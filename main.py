@@ -9,7 +9,6 @@ bot = telebot.TeleBot(BOT_TOKEN)
 orders_data = {}
 
 
-
 # Обработчик команды /start
 @bot.message_handler(commands=['start'])
 def start(message):
